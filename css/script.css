@@ -1,0 +1,10 @@
+.form-css{
+    border: 1px solid;  
+    text-align: center; width: 50%;
+    margin-left: 20%;
+}
+
+.btn-css{
+    margin-top: 10px; 
+    background-color: rgb(122, 166, 245);
+}

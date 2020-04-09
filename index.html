@@ -1,8 +1,32 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-    <title>My App</title>
-    <script type="text/javascript" src="js/script.js" ></script>
+    <title>
+        JS_EXERCISE-1
+    </title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/script.css">
 </head>
-<div>
-    React training
-</div>
+
+<body>
+    <div class="form-css">
+        <form>
+            <div>
+                <label>Enter your first name: </label>
+                <input type="text" id="firstName">
+            </div>
+            <div>
+                <label>Enter your last name: </label>
+                <input type="text" id="lastName">
+            </div>
+        </form>
+        <button class="btn-css" onclick="handlers.submit()"> Get Full Name</button>
+        <div>
+            <label>Full Name: </label>
+            <label id="output"></label>
+        </div>
+    </div>
+</body>
+
+</html>
